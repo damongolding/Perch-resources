@@ -1,6 +1,6 @@
 # Perch Resources
 
-Just a collection of resources for [Perch CMS](https://grabaperch.com/ "Perch")
+Just a collection of resources for [Perch CMS](https://grabaperch.com/ "Perch") I have either made or modded.
 
 ## Field Types
 
@@ -20,8 +20,9 @@ example use in content templates:
 
 Outputs a blurred img as a base64 sting (e.g data:image/.png;base64,iVBORw0KGgoAAAANSUh...) will also respect normal image type attributes (crop, width, desity etc).
 
-##### Blur amount (1 = the lowest)
+##### Options
+- Blur amount (1 = the lowest)
 
 example use in content templates:
-`<img src="<perch:content type="base64blur" id="blur" label="blurrd image" bluramount="1" />" alt="" />`
+`<img src="<perch:content type="base64blur" id="blur" label="blurred image" bluramount="1" />" alt="" />`
 
