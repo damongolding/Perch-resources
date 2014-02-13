@@ -26,3 +26,10 @@ Outputs a blurred img as a base64 sting (e.g data:image/.png;base64,iVBORw0KGgoA
 example use in content templates:
 `<img src="<perch:content type="base64blur" id="blur" label="blurred image" bluramount="1" />" alt="" />`
 
+### Colour Picker
+
+outputs a HEX ref using the (amazing) [iris](http://automattic.github.io/Iris/) colourpicker
+
+example use in content templates:
+`<perch:content type="colour" id="blur" label="Main Colour"/>`
+
