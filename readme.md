@@ -31,5 +31,5 @@ example use in content templates:
 outputs a HEX ref using the (amazing) [iris](http://automattic.github.io/Iris/) colourpicker
 
 example use in content templates:
-`<perch:content type="colour" id="blur" label="Main Colour"/>`
+`<perch:content type="colour" id="colour" label="Main Colour"/>`
 
