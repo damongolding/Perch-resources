@@ -40,7 +40,8 @@ Place these in addons/editors.
 
 ### Redactor character limiter
 
-##### * This addon does not come with the redactor editer itself. You must have the redactor editor installed/added in the addons/editors folder for this to work. *
+##### * This addon does not come with the redactor editer itself. You must have the redactor (1.6) editor installed/added in the addons/editors folder for this to work. *
+
 
 Redactor editor but with a character count and limiter. This editor is a little bit of a hack. Rather then creating a custom tag, I am using the size tag to pass a class which contains the character limit to the textarea field in the editor.
 
