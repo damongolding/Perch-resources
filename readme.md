@@ -66,14 +66,14 @@ Example usage in a template tag:
 
 ### Hidden region indicator
 
-##### Word of warning. This was is build for a spesific need, therefore it is not very robust.
+##### Word of warning. This was is build for a spesific need, therefore it is not very robust. By all mean use/mod this but if you upgrade it drop me a line :)
 
 This tweak inserts a new column into the region table on the page edit page. It was build for a region that does not use multiple items.
-
 To use include the php script to your UI include file in 'perch/addons/plugins/ui/_config.inc' (example file included).
 
 Example:
-A example content templet is included in the 'content' folder. It basicaly wraps conent in a perch:if statement.
+A example content templet is included in the 'content' folder. Basicaly you ould wrap your conent in a perch:if statement. If the script does not find the
+ the perch:if statement it will display the region as 'displayed'.
 
 
 
