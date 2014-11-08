@@ -2,6 +2,16 @@
 
 Just a collection of resources for [Perch CMS](https://grabaperch.com/ "Perch") I have either made or modded.
 
+### List of contents
+* [Field Types](#field-types)
+    * [base64](#base64)
+    * [Colour Picker](#colour-picker)
+* [Editors](#editors)
+    * [Redactor character limiter](#redactor-character-limiter)
+* [UI tweaks](#ui-tweaks)
+    * [Hidden region indicator](#hidden-region-indicator)
+
+
 ## Field Types
 
 Place these in addons/fieldtypes
@@ -50,3 +60,23 @@ Lets say we want to add a 250 character limit to the textarea. To do this we wou
 
 Example usage in a template tag:  
 `<perch:content type='textarea' id="" label="" html="true" editor="redactor-limiter" size="charlimit-250" />`
+
+
+## UI tweaks
+
+### Hidden region indicator
+
+##### Word of warning. This was is build for a spesific need, therefore it is not very robust.
+
+This tweak inserts a new column into the region table on the page edit page. It was build for a region that does not use multiple items.
+
+To use include the php script to your UI include file in 'perch/addons/plugins/ui/_config.inc' (example file included).
+
+Example:
+A example content templet is included in the 'content' folder. It basicaly wraps conent in a perch:if statement.
+
+
+
+
+
+
