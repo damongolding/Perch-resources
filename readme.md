@@ -20,7 +20,7 @@ Place these in addons/fieldtypes
 
 Outputs a image as a base64 sting (e.g data:image/.png;base64,iVBORw0KGgoAAAANSUh...) will also respect normal image type attributes (crop, width, desity etc).
 
-example use in content templates:  
+**example use in content templates:**  
 `<img src="<perch:content type="base64img" id="" label="" />" alt="" />`
 
 
@@ -33,14 +33,14 @@ Outputs a blurred img as a base64 sting (e.g data:image/.png;base64,iVBORw0KGgoA
 ##### Options
 - Blur amount (1 = the lowest)
 
-example use in content templates:  
+**example use in content templates:**  
 `<img src="<perch:content type="base64blur" id="" label="" bluramount="1" />" alt="" />`
 
 ### Colour Picker
 
 outputs a HEX ref using the (amazing) [iris](http://automattic.github.io/Iris/) colourpicker
 
-example use in content templates:  
+**example use in content templates:**  
 `<perch:content type="colour" id="" label="" />`
 
 
@@ -55,10 +55,10 @@ Place these in addons/editors.
 
 Redactor editor but with a character count and limiter. This editor is a little bit of a hack. Rather then creating a custom tag, I am using the size tag to pass a class which contains the character limit to the textarea field in the editor.
 
-example useage:  
+**example useage:**  
 Lets say we want to add a 250 character limit to the textarea. To do this we would need to add `size="charlimit-250"`. For a 300 limit `size="charlimit-300"` and so on. We would also need to set the editor tag to `editor="redactor-limiter"`.
 
-Example usage in a template tag:  
+**Example usage in a template tag:**  
 `<perch:content type='textarea' id="" label="" html="true" editor="redactor-limiter" size="charlimit-250" />`
 
 
@@ -71,7 +71,7 @@ Example usage in a template tag:
 This tweak inserts a new column into the region table on the page edit page. It was build for a region that does not use multiple items.
 To use include the php script to your UI include file in 'perch/addons/plugins/ui/_config.inc' (example file included).
 
-Example:
+**Example:**  
 A example content templet is included in the 'content' folder. Basicaly you ould wrap your conent in a perch:if statement. If the script does not find the
  the perch:if statement it will display the region as 'displayed'.
 
